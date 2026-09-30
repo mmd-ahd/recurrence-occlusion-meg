@@ -25,6 +25,13 @@ HTRN is a ResNet-50 with an added 256-D top-down feedback loop (built on the
 Stage `s` of `htrn.models.generate_stage_schedule` activates one more block per layer until all
 `[3, 4, 6, 3]` blocks are active. `scripts/07_figures/plot_htrn_unrolling.py` draws the construction (Fig. 4A-B).
 
+<p align="center">
+  <img src="docs/figure5.png" alt="Figure 5: HTRN architecture and time-resolved model-brain correspondence" width="700">
+</p>
+
+*Figure 5. (A) HTRN and the mapping of its stages to V1-3, LOC and IT-PHC. (B) Time-resolved model-brain
+correspondence (Spearman correlation) for HTRN-FF, HTRN-LR and HTRN-TD at 0% and 60% occlusion.*
+
 ## Repository layout
 
 ```
@@ -157,4 +164,6 @@ see `THIRD_PARTY_NOTICES.md`.
 
 ## Contact
 
-Karim Rajaei (rajaei.k@ipm.ir)
+Mohammad Ahadzadeh: ahadzadehmohammad@gmail.com, ahadzadeh@ipm.ir
+
+Corresponding author: Karim Rajaei (rajaei.k@ipm.ir)
