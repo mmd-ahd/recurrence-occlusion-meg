@@ -26,7 +26,7 @@ Stage `s` of `htrn.models.generate_stage_schedule` activates one more block per 
 `[3, 4, 6, 3]` blocks are active. `scripts/07_figures/plot_htrn_unrolling.py` draws the construction (Fig. 4A-B).
 
 <p align="center">
-  <img src="docs/figure5.png" alt="HTRN readout stages and recognition accuracy under occlusion" width="700">
+  <img src="docs/htrn_readout_stages.png" alt="HTRN readout stages and recognition accuracy under occlusion" width="700">
 </p>
 
 *HTRN readout stages. (A) A residual block as one recurrent iteration, folded and unrolled. (B) Construction of the HTRN-LR and HTRN-TD readout stages from the 16 bottleneck blocks. (C) Four-way recognition accuracy per readout stage at 0%, 60% and 80% occlusion, with human accuracy for reference.*
