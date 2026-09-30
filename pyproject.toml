@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recurrence-occlusion-meg"
+version = "0.1.0"
+description = "Code for 'Local recurrence accounts for extended processing during occluded-object recognition' (MEG, RSA and the HTRN model)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "joblib",
+    "threadpoolctl",
+    "tqdm",
+    "matplotlib",
+    "pillow",
+    "h5py",
+    "mne",
+    "torch",
+    "torchvision",
+    "huggingface_hub",
+    "datasets",
+]
+
+[project.optional-dependencies]
+viewer = ["pyvista", "pyvistaqt"]
+
+[tool.setuptools]
+packages = ["htrn", "dfbmodels", "dfbmodels.models", "cornet"]

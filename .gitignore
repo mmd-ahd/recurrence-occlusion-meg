@@ -1,0 +1,28 @@
+# Data, checkpoints and outputs (large or not redistributable)
+Megocclusion/
+ImageFiles/
+ImageNet/
+*.pt
+*.pth
+*.fif
+*.mat
+results_*/
+final_master_plots/
+ROI_figures/
+Final Figures*/
+figures/
+
+# Manuscript drafts, papers and working notes
+*.docx
+*.pdf
+Literature/
+Results_Summary.csv
+
+# Local tooling and scratch
+_legacy/
+.hermes/
+.vscode/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/

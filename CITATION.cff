@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "recurrence-occlusion-meg"
+type: software
+authors:
+  - family-names: Ahadzadeh
+    given-names: Mohammad
+  - family-names: Rajaei
+    given-names: Karim
+  - family-names: Soltanian-Zadeh
+    given-names: Hamid
+preferred-citation:
+  type: article
+  title: "Local recurrence accounts for extended processing during occluded-object recognition"
+  authors:
+    - family-names: Ahadzadeh
+      given-names: Mohammad
+    - family-names: Rajaei
+      given-names: Karim
+    - family-names: Soltanian-Zadeh
+      given-names: Hamid
+  journal: bioRxiv
+  year: 2026
+  doi: 10.64898/2026.09.10.750662

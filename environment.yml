@@ -1,0 +1,23 @@
+name: recurrence-occlusion-meg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - joblib
+  - threadpoolctl
+  - tqdm
+  - matplotlib
+  - pillow
+  - h5py
+  - mne
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - huggingface_hub
+      - datasets
+      - -e .
